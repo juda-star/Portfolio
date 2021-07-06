@@ -14,7 +14,7 @@ export default function Routing() {
           <LanguageComponents.Home />
         </Route>
         <Route path="/PortFolio" exact={true} component={PortFolio}>
-          <PortFolio />
+        <LanguageComponents.PortFolio />
         </Route>
         <Route path="/Skills" exact={true} component={Skills}>
           <Skills />

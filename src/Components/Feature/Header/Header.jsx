@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import Link from "../Link/Link";
 const HeaderLink = styled.div`
   width: 100%;
   height: 44px;
@@ -16,14 +16,17 @@ const HeaderLink = styled.div`
 `;
 
 function Header() {
+  const LinkArray = [
+    "https://tech-career-alternative.firebaseapp.com/",
+    "./Tech-career.jpeg",
+    "./indi.jpeg",
+  ];
   return (
     <HeaderLink>
       <p>
-        <a href="https://tech-career-alternative.firebaseapp.com/">
-          <img src="Tech-career.jpeg" width="100" height="80px" />
-        </a>
-          <img src="indi.jpeg" width="100" height="80px" />
-        
+        <img src="Tech-career.jpeg" width="100" height="80px" />
+        <Link LinkArray={LinkArray} />
+        <img src="indi.jpeg" width="100" height="80px" />
       </p>
       <p style={{ marginTop: "20px" }}> Email: juda.ishta@gmail.com</p>
     </HeaderLink>

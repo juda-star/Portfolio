@@ -1,7 +1,8 @@
 import './App.css';
 import React,{useState} from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import NavBar from './Components/Feature/Navbar/Navbar';
+// import NavBar from './Components/Feature/Navbar/Navbar';
+import SideBar from './Components/Feature/SideBar/SideBar';
 import Routing from './Components/Feature/Routing/Routing';
 import Header from './Components/Feature/Header/Header';
 import Footer from './Components/Feature/Footer/Footer';
@@ -20,6 +21,9 @@ function ChangeLanguage() {
 }
 const languageObj = {
   Home:language.Home,
+  PortFolio:language.PortFolio,
+    Skills:language.Skills,
+    ContactMe:language.ContactMe,
   CHngaeButton: ChangeLanguage,
 
 }
@@ -28,7 +32,8 @@ const languageObj = {
       <Router>
         <div id="flexD">
       <Header/>
-      <NavBar/>
+      <SideBar/>
+      {/* <NavBar/> */}
       </div>
       <Routing/>
       <Footer/>

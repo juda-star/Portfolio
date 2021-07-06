@@ -32,7 +32,7 @@ const StyledProjects = styled.div`
   }
 `;
 
-function PortFolio() {
+export default function PortFolio() {
   return (
     <MainPage>
       <StyledMainPage>
@@ -74,4 +74,44 @@ function PortFolio() {
   );
 }
 
-export default PortFolio;
+export function PortFolioHebrew() {
+  return (
+    <MainPage>
+      <StyledMainPage>
+        <MainPageBody>
+          <h1>עמוד הגיט</h1>
+          <br />
+          <h3>https://github.com/juda-star</h3> <br /> <br />
+          <StyledProjects>
+            <PropsImg name="קורות חיים" image="/juda.jpeg" />
+            <a href="https://github.com/juda-star/new_project">
+              <FaGithubSquare fontSize="xx-large" style={{ color: "white" }} />
+            </a>
+            <p>גיט</p>
+            <PropsImg
+              name="מחשבון"
+              image="https://www.channelfutures.com/files/2015/06/burden-calculator-1.jpg"
+            />
+            <a href="https://github.com/juda-star/calculator1">
+              <FaGithubSquare fontSize="xx-large" style={{ color: "white" }} />
+            </a>
+            <p>גיט</p>
+            <PropsImg name="משימת חג" image="/Untitled.png" />
+            <a href="https://github.com/juda-star/holidayMission">
+              <FaGithubSquare fontSize="xx-large" style={{ color: "white" }} />
+            </a>
+            <p>גיט</p>
+            <PropsImg
+              name="אפליקצית סרטים"
+              image="https://cdn.vox-cdn.com/thumbor/Yi-UaHGh_i7mC9gteWnrK-JlP5g=/0x0:2238x1350/1200x800/filters:focal(940x496:1298x854)/cdn.vox-cdn.com/uploads/chorus_image/image/66013482/Screen_Shot_2019_11_12_at_7.27.13_AM.0.png"
+            />
+            <a href="https://github.com/juda-star/MoviesApp">
+              <FaGithubSquare fontSize="xx-large" style={{ color: "white" }} />
+            </a>
+            <p>גיט</p>
+          </StyledProjects>
+        </MainPageBody>
+      </StyledMainPage>
+    </MainPage>
+  );
+}

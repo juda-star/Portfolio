@@ -47,7 +47,7 @@ const MainPageBody = styled.div`
   box-sizing: border-box;
 `;
 
-function ContactMe() {
+export default function ContactMe() {
   return (
     <MainPage>
       <StyledMainPage>
@@ -59,4 +59,20 @@ function ContactMe() {
   );
 }
 
-export default ContactMe;
+
+
+export function ContactMeHebrew() {
+  return (
+    <MainPage>
+      <StyledMainPage>
+        <MainPageBody>
+          <Input />
+        </MainPageBody>
+      </StyledMainPage>
+    </MainPage>
+  );
+}
+
+
+
+
