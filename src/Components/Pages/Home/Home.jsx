@@ -95,7 +95,9 @@ export default function Home() {
         <MainPageDetails>
           <h5>Petah-Tikva | 0506648599 | juda.ishta@gmail.com</h5>
         </MainPageDetails>
-        <Button>Download cv</Button>
+        <a href="https://workupload.com/file/RtTUGZXbt4A">
+          <Button>Download cv</Button>
+        </a>
         <img src="useReducer.jpeg" alt="" />
         <h4>
           useReducer is react Hook which is basically an alternative to

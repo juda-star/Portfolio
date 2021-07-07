@@ -76,60 +76,7 @@ export default function Skills() {
           <img src="juda.jpeg" alt="" />
         </AboutMePic>
         <AboutMeSkills>
-          <span>שלום & ברוכים הבאים </span>
-          <h3>אני יהודה אישטה.</h3>
-          <h3>
-            • מפתח - Fullstuck. מאמין בעבודה קשה. <br />• יכולות: עבודת צוות.
-            <br />• יכולות אישיות: הנהגה .יצירתי,סובלנות.
-          </h3>
-          <br />
-          <span>מעצב ממשק משתמש / UX • צלם • מפתח תוכנה</span>
-          <p>
-            מרכז הכשרה טכנולוגית-קריירה, 800 שעות פיתוח קורס תכנות - יישומים
-            ואינטרנט .
-          </p>
-          <br />
-          <h3>צד - לקוח:</h3>
-          <UseEffectForSkiil
-            skillName={
-              <FaReact fontSize="x-large" style={{ color: "black" }} />
-            }
-            skillLevel={75}
-          />
-          <UseEffectForSkiil
-            skillName={
-              <FaHtml5 fontSize="x-large" style={{ color: "black" }} />
-            }
-            skillLevel={80}
-          />
-          <UseEffectForSkiil
-            skillName={<FaCss3 fontSize="x-large" style={{ color: "black" }} />}
-            skillLevel={85}
-          />
-          <h3>צד - שרת:</h3>
-          <UseEffectForSkiil
-            skillName={<FaJs fontSize="x-large" style={{ color: "black" }} />}
-            skillLevel={82}
-          />
-          <UseEffectForSkiil
-            skillName={<FaMdb fontSize="x-large" style={{ color: "black" }} />}
-            skillLevel={80}
-          />
-        </AboutMeSkills>
-      </AboutMeBody>
-    </StyledAboutMe>
-  );
-}
-
-export function SkillsHebrew() {
-  return (
-    <StyledAboutMe>
-      <AboutMeBody>
-        <AboutMePic>
-          <img src="juda.jpeg" alt="" />
-        </AboutMePic>
-        <AboutMeSkills>
-          <span>הלו & Welcome </span>
+          <span>hello & Welcome </span>
           <h3>I'M YEHOODA ISHTA.</h3>
           <h3>
             • Fullstuck Developer. Believes in hard work. <br />• Professional
@@ -161,6 +108,59 @@ export function SkillsHebrew() {
             skillLevel={85}
           />
           <h3>Server side:</h3>
+          <UseEffectForSkiil
+            skillName={<FaJs fontSize="x-large" style={{ color: "black" }} />}
+            skillLevel={82}
+          />
+          <UseEffectForSkiil
+            skillName={<FaMdb fontSize="x-large" style={{ color: "black" }} />}
+            skillLevel={80}
+          />
+        </AboutMeSkills>
+      </AboutMeBody>
+    </StyledAboutMe>
+  );
+}
+
+export function SkillsHebrew() {
+  return (
+    <StyledAboutMe>
+      <AboutMeBody>
+        <AboutMePic>
+          <img src="juda.jpeg" alt="" />
+        </AboutMePic>
+        <AboutMeSkills>
+          <span>שלום & ברוכים הבאים </span>
+          <h3>אני יהודה אישטה.</h3>
+          <h3>
+            • מפתח - Fullstuck. מאמין בעבודה קשה. <br />• יכולות: עבודת צוות.
+            <br />• יכולות אישיות: הנהגה .יצירתי,סובלנות.
+          </h3>
+          <br />
+          <span>מעצב ממשק משתמש / UX • צלם • מפתח תוכנה</span>
+          <p>
+            מרכז הכשרה טכנולוגית-קריירה, 800 שעות פיתוח קורס תכנות - יישומים
+            ואינטרנט .
+          </p>
+          <br />
+          <h3>צד - לקוח:</h3>
+          <UseEffectForSkiil
+            skillName={
+              <FaReact fontSize="x-large" style={{ color: "black" }} />
+            }
+            skillLevel={75}
+          />
+          <UseEffectForSkiil
+            skillName={
+              <FaHtml5 fontSize="x-large" style={{ color: "black" }} />
+            }
+            skillLevel={80}
+          />
+          <UseEffectForSkiil
+            skillName={<FaCss3 fontSize="x-large" style={{ color: "black" }} />}
+            skillLevel={85}
+          />
+          <h3>צד שרת:</h3>
           <UseEffectForSkiil
             skillName={<FaJs fontSize="x-large" style={{ color: "black" }} />}
             skillLevel={82}

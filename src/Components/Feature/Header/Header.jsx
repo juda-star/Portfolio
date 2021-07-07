@@ -15,21 +15,21 @@ const HeaderLink = styled.div`
   }
 `;
 
-function Header() {
-  const LinkArray = [
+ function Header() {
+  const LinkArray=[
     "https://tech-career-alternative.firebaseapp.com/",
-    "./Tech-career.jpeg",
-    "./indi.jpeg",
-  ];
+    "Tech-career.jpeg",
+    "indi.jpeg"
+];
   return (
     <HeaderLink>
       <p>
-        <img src="Tech-career.jpeg" width="100" height="80px" />
+        
         <Link LinkArray={LinkArray} />
-        <img src="indi.jpeg" width="100" height="80px" />
+        
       </p>
       <p style={{ marginTop: "20px" }}> Email: juda.ishta@gmail.com</p>
     </HeaderLink>
   );
-}
+  }
 export default Header;
