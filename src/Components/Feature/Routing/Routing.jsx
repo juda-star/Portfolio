@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Skills from "../../Pages/Skills/Skills";
 import PortFolio from "../../Pages/Portfolio/Portfolio";
 import ContactMe from "../../Pages/ContactMe/ContactMe";

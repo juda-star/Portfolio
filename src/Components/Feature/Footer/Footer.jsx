@@ -9,7 +9,7 @@ const MainFooter = styled.div`
   height: 40px; */
 `;
 
-const StyleIconLinkedin = { color: "#0A66C2" };
+const StyleIconLinkedin = { color: "#0A66C2", font: "larger" };
 
 const StyleIconGit = { color: "#161B22" };
 
