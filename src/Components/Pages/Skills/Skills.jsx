@@ -5,7 +5,7 @@ import { FaHtml5, FaCss3, FaJs, FaMdb, FaReact } from "react-icons/fa";
 const StyledAboutMe = styled.div`
   display: flex;
   flex-wrap: wrap;
-  background-color: gray;
+  /* background-color: gray; */
   flex-direction: column;
   width: 100vw;
   height: 100vh;
