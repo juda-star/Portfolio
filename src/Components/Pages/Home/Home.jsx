@@ -2,8 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 export const MainPage = styled.div`
+  /* overflow: scroll; */
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   position: relative;
   background-image: url("theBadest.jpeg");
   background-size: cover;

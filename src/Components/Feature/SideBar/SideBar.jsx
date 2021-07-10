@@ -8,6 +8,19 @@ import {
   FaEnvelope,
   FaCalendar,
 } from "react-icons/fa";
+import { makeStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+import IconButton from '@material-ui/core/IconButton';
+
+const useStyles = makeStyles((theme) => ({
+  margin: {
+    margin: theme.spacing(1),
+  },
+  extendedIcon: {
+    marginRight: theme.spacing(1),
+  },
+}));
+
 const StyledNavBar = styled.ul`
   display: flex;
   list-style-type: none;
@@ -24,11 +37,12 @@ const StyledNavBarContainer = styled.div`
   height: 100%;
   position: absolute;
   z-index: 999;
-  top: 70px;
+  top: 45px;
   left: -13px;
 `;
 
 function SideBar() {
+  const classes = useStyles();
   const controler = MagicContext();
 
   return (
@@ -56,7 +70,10 @@ function SideBar() {
             <FaEnvelope fontSize="x-large" style={{ color: "black" }} />
           </Link>
         </li>
-        <button onClick={controler.CHngaeButton}>Language</button>
+      
+        <Button  onClick={controler.CHngaeButton} variant="outlined" size="small" color="primary" className={classes.margin}>
+        Language
+        </Button>
       </StyledNavBar>
     </StyledNavBarContainer>
   );

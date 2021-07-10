@@ -15,21 +15,19 @@ const HeaderLink = styled.div`
   }
 `;
 
- function Header() {
-  const LinkArray=[
+function Header() {
+  const LinkArray = [
     "https://tech-career-alternative.firebaseapp.com/",
     "Tech-career.jpeg",
-    "indi.jpeg"
-];
+    "indi.jpeg",
+  ];
   return (
     <HeaderLink>
       <p>
-        
         <Link LinkArray={LinkArray} />
-        
       </p>
       <p style={{ marginTop: "20px" }}> Email: juda.ishta@gmail.com</p>
     </HeaderLink>
   );
-  }
+}
 export default Header;

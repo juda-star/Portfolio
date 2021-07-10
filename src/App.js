@@ -28,17 +28,19 @@ const languageObj = {
 
 }
   return (
-    <Provaider value={languageObj} className="App">
-      <Router>
+    <div className="App">
+    <Provaider value={languageObj} >
+      {/* <Router> */}
         <div id="flexD">
       <Header/>
-      <SideBar/>
-      {/* <NavBar/> */}
+      {/* <SideBar/> */}
+     
       </div>
       <Routing/>
       <Footer/>
-      </Router>
+      {/* </Router> */}
     </Provaider>
+    </div>
   );
 }
 

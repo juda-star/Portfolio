@@ -5,9 +5,9 @@ import { FaHtml5, FaCss3, FaJs, FaMdb, FaReact } from "react-icons/fa";
 const StyledAboutMe = styled.div`
   display: flex;
   flex-wrap: wrap;
-  /* background-color: gray; */
+  background-color: gray;
   flex-direction: column;
-  width: 98vw;
+  width: 100vw;
   height: 100vh;
   justify-content: flex-start;
   align-items: center;
@@ -17,12 +17,6 @@ const StyledAboutMe = styled.div`
     font-size: 30px;
   }
 `;
-// const Line = styled.div`
-//   width: 34px;
-//   height: 3px;
-//   background-color: #3648ff;
-//   font-weight: 400px;
-// `;
 
 const AboutMePic = styled.div`
   padding: 8px;
@@ -36,13 +30,13 @@ const AboutMePic = styled.div`
     height: 100%;
     width: 100%;
     border-radius: 32px;
-    /* border: 4px solid gray; */
+    border: 4px solid gray;
   }
 `;
 
 const AboutMeSkills = styled.div`
-  width: 60%;
-  height: 100%;
+  width: 40%;
+  height: 80%;
   /* background-color: gold; */
   display: flex;
   flex-direction: column;
@@ -54,7 +48,6 @@ const AboutMeSkills = styled.div`
   }
   p {
     color: #3648ff;
-    /* margin-bottom: 16px; */
     width: 75%;
     text-align: left;
   }
@@ -81,7 +74,7 @@ export default function Skills() {
           <h3>
             • Fullstuck Developer. Believes in hard work. <br />• Professional
             skills: Teamwork abilities.
-            <br />• personal skills: leadership .creativity,patience.
+            <br />• personal skills: leadership ,creativity,patience.
           </h3>
           <br />
           <span>UI/UX Designer • Photographer • Devloper</span>
@@ -97,7 +90,8 @@ export default function Skills() {
             }
             skillLevel={75}
           />
-          <UseEffectForSkiil
+
+          {/* <UseEffectForSkiil
             skillName={
               <FaHtml5 fontSize="x-large" style={{ color: "black" }} />
             }
@@ -106,16 +100,19 @@ export default function Skills() {
           <UseEffectForSkiil
             skillName={<FaCss3 fontSize="x-large" style={{ color: "black" }} />}
             skillLevel={85}
-          />
+          /> */}
+
           <h3>Server side:</h3>
           <UseEffectForSkiil
             skillName={<FaJs fontSize="x-large" style={{ color: "black" }} />}
             skillLevel={82}
           />
-          <UseEffectForSkiil
+
+          {/* <UseEffectForSkiil
             skillName={<FaMdb fontSize="x-large" style={{ color: "black" }} />}
             skillLevel={80}
-          />
+          /> */}
+
         </AboutMeSkills>
       </AboutMeBody>
     </StyledAboutMe>
@@ -150,7 +147,7 @@ export function SkillsHebrew() {
             }
             skillLevel={75}
           />
-          <UseEffectForSkiil
+          {/* <UseEffectForSkiil
             skillName={
               <FaHtml5 fontSize="x-large" style={{ color: "black" }} />
             }
@@ -159,16 +156,16 @@ export function SkillsHebrew() {
           <UseEffectForSkiil
             skillName={<FaCss3 fontSize="x-large" style={{ color: "black" }} />}
             skillLevel={85}
-          />
+          /> */}
           <h3>צד שרת:</h3>
           <UseEffectForSkiil
             skillName={<FaJs fontSize="x-large" style={{ color: "black" }} />}
             skillLevel={82}
           />
-          <UseEffectForSkiil
+          {/* <UseEffectForSkiil
             skillName={<FaMdb fontSize="x-large" style={{ color: "black" }} />}
             skillLevel={80}
-          />
+          /> */}
         </AboutMeSkills>
       </AboutMeBody>
     </StyledAboutMe>

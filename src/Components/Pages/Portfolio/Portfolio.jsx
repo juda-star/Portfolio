@@ -41,7 +41,10 @@ export default function PortFolio() {
           <br />
           <h3>https://github.com/juda-star</h3> <br /> <br />
           <StyledProjects>
-            <PropsImg name="my_resume" image="juda.jpeg" />
+            <PropsImg
+              name="my_resume"
+              image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqb39ASqQZlq-jjqZDLwCZv2WyA2OWG5V7fw&usqp=CAU"
+            />
             <a href="https://github.com/juda-star/new_project">
               <FaGithubSquare fontSize="xx-large" style={{ color: "white" }} />
             </a>
@@ -54,7 +57,10 @@ export default function PortFolio() {
               <FaGithubSquare fontSize="xx-large" style={{ color: "white" }} />
             </a>
             <p>Github</p>
-            <PropsImg name="holidayMission" image="Untitled.png" />
+            <PropsImg
+              name="holidayMission"
+              image="https://pmsindia.info/wp-content/uploads/2021/04/mission.jpg"
+            />
             <a href="https://github.com/juda-star/holidayMission">
               <FaGithubSquare fontSize="xx-large" style={{ color: "white" }} />
             </a>
@@ -83,7 +89,10 @@ export function PortFolioHebrew() {
           <br />
           <h3>https://github.com/juda-star</h3> <br /> <br />
           <StyledProjects>
-            <PropsImg name="קורות חיים" image="juda.jpeg" />
+            <PropsImg
+              name="קורות חיים"
+              image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqb39ASqQZlq-jjqZDLwCZv2WyA2OWG5V7fw&usqp=CAU"
+            />
             <a href="https://github.com/juda-star/new_project">
               <FaGithubSquare fontSize="xx-large" style={{ color: "white" }} />
             </a>
@@ -96,7 +105,10 @@ export function PortFolioHebrew() {
               <FaGithubSquare fontSize="xx-large" style={{ color: "white" }} />
             </a>
             <p>גיט</p>
-            <PropsImg name="משימת חג" image="Untitled.png" />
+            <PropsImg
+              name="משימת חג"
+              image="https://pmsindia.info/wp-content/uploads/2021/04/mission.jpg"
+            />
             <a href="https://github.com/juda-star/holidayMission">
               <FaGithubSquare fontSize="xx-large" style={{ color: "white" }} />
             </a>
