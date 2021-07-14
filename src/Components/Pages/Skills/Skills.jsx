@@ -1,11 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import UseEffectForSkiil from "../../Feature/UseEffectForSkiil/UseEffectForSkiil";
-import { FaHtml5, FaCss3, FaJs, FaMdb, FaReact } from "react-icons/fa";
+import { FaJs, FaReact } from "react-icons/fa";
 const StyledAboutMe = styled.div`
   display: flex;
   flex-wrap: wrap;
-  /* background-color: gray; */
   flex-direction: column;
   width: 100vw;
   height: 100vh;
@@ -25,7 +24,6 @@ const AboutMePic = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  /* background-color: green; */
   img {
     height: 100%;
     width: 100%;
@@ -37,7 +35,6 @@ const AboutMePic = styled.div`
 const AboutMeSkills = styled.div`
   width: 40%;
   height: 80%;
-  /* background-color: gold; */
   display: flex;
   flex-direction: column;
   span {
@@ -91,16 +88,7 @@ export default function Skills() {
             skillLevel={75}
           />
 
-          {/* <UseEffectForSkiil
-            skillName={
-              <FaHtml5 fontSize="x-large" style={{ color: "black" }} />
-            }
-            skillLevel={80}
-          />
-          <UseEffectForSkiil
-            skillName={<FaCss3 fontSize="x-large" style={{ color: "black" }} />}
-            skillLevel={85}
-          /> */}
+         
 
           <h3>Server side:</h3>
           <UseEffectForSkiil
@@ -108,10 +96,7 @@ export default function Skills() {
             skillLevel={82}
           />
 
-          {/* <UseEffectForSkiil
-            skillName={<FaMdb fontSize="x-large" style={{ color: "black" }} />}
-            skillLevel={80}
-          /> */}
+          
 
         </AboutMeSkills>
       </AboutMeBody>
@@ -147,25 +132,13 @@ export function SkillsHebrew() {
             }
             skillLevel={75}
           />
-          {/* <UseEffectForSkiil
-            skillName={
-              <FaHtml5 fontSize="x-large" style={{ color: "black" }} />
-            }
-            skillLevel={80}
-          />
-          <UseEffectForSkiil
-            skillName={<FaCss3 fontSize="x-large" style={{ color: "black" }} />}
-            skillLevel={85}
-          /> */}
+         
           <h3>צד שרת:</h3>
           <UseEffectForSkiil
             skillName={<FaJs fontSize="x-large" style={{ color: "black" }} />}
             skillLevel={82}
           />
-          {/* <UseEffectForSkiil
-            skillName={<FaMdb fontSize="x-large" style={{ color: "black" }} />}
-            skillLevel={80}
-          /> */}
+         
         </AboutMeSkills>
       </AboutMeBody>
     </StyledAboutMe>
