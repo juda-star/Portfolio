@@ -22,7 +22,12 @@ export const Hebrow={
 
 const ContextForInfo=createContext();
 export const Provaider=ContextForInfo.Provider;
+export const ProvaiderTheme=ContextForInfo.Provider;
 export function MagicContext() {
     const language = useContext(ContextForInfo);
     return language;
+}
+export function ThemeContext() {
+    const color = useContext(ContextForInfo);
+    return color;
 }

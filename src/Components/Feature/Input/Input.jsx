@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { useRef, useEffect } from "react";
-
 function Input() {
   function submitHandler(event) {
     console.log(event.target);

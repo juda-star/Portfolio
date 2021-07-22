@@ -1,13 +1,6 @@
 import styled from "styled-components";
 import { FaFacebookSquare, FaLinkedin, FaGithubSquare } from "react-icons/fa";
-
-const MainFooter = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  /* width: 100vw;
-  height: 40px; */
-`;
+import { ThemeContext } from "../Translate/Translate";
 
 const StyleIconLinkedin = { color: "#0A66C2", font: "larger" };
 
@@ -16,6 +9,14 @@ const StyleIconGit = { color: "#161B22" };
 const StyleIconFacebook = { color: "#1877F2" };
 
 function Footer() {
+  const changeT = ThemeContext();
+  console.log(changeT.stateTheme);
+  const MainFooter = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: ${changeT.stateTheme.Theme ? "white" : "black"};
+  `;
   return (
     <MainFooter>
       <div>
