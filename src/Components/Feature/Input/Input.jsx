@@ -50,7 +50,7 @@ function Input() {
           <div>
             <input type="text" name="amount" placeholder="Enter Email" />
           </div>
-          <button type="submit">sand</button>
+          <button type="submit">send</button>
         </form>
       </fieldset>
     </styleForm>
