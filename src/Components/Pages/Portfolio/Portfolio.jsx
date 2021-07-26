@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { MainPage } from "../Home/Home";
 import PropsImg from "./PropsImg";
-import { FaFacebookSquare, FaLinkedin, FaGithubSquare } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 const StyledMainPage = styled.div`
   width: 100%;
   height: 100%;
@@ -96,7 +96,7 @@ export function PortFolioHebrew() {
             <a href="https://github.com/juda-star/new_project">
               <FaGithubSquare fontSize="xx-large" style={{ color: "white" }} />
             </a>
-            <p>גיט</p>
+            <p>גיטהאב</p>
             <PropsImg
               name="מחשבון"
               image="https://www.channelfutures.com/files/2015/06/burden-calculator-1.jpg"
@@ -104,7 +104,7 @@ export function PortFolioHebrew() {
             <a href="https://github.com/juda-star/calculator1">
               <FaGithubSquare fontSize="xx-large" style={{ color: "white" }} />
             </a>
-            <p>גיט</p>
+            <p>גיטהאב</p>
             <PropsImg
               name="משימת חג"
               image="https://pmsindia.info/wp-content/uploads/2021/04/mission.jpg"
@@ -112,7 +112,7 @@ export function PortFolioHebrew() {
             <a href="https://github.com/juda-star/holidayMission">
               <FaGithubSquare fontSize="xx-large" style={{ color: "white" }} />
             </a>
-            <p>גיט</p>
+            <p>גיטהאב</p>
             <PropsImg
               name="אפליקצית סרטים"
               image="https://cdn.vox-cdn.com/thumbor/Yi-UaHGh_i7mC9gteWnrK-JlP5g=/0x0:2238x1350/1200x800/filters:focal(940x496:1298x854)/cdn.vox-cdn.com/uploads/chorus_image/image/66013482/Screen_Shot_2019_11_12_at_7.27.13_AM.0.png"
@@ -120,7 +120,7 @@ export function PortFolioHebrew() {
             <a href="https://github.com/juda-star/MoviesApp">
               <FaGithubSquare fontSize="xx-large" style={{ color: "white" }} />
             </a>
-            <p>גיט</p>
+            <p>גיטהאב</p>
           </StyledProjects>
         </MainPageBody>
       </StyledMainPage>
